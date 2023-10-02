@@ -1,0 +1,180 @@
+body{
+    background-color: black;
+}
+.main1{
+    height: 650px;
+    width: 100%;
+    background-image: url(st4.jpg);
+    background-size: cover;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    z-index: 1;
+
+}.nav{
+    display: flex;
+    align-items: center;
+}
+.nav1{
+    margin-left: 20px;
+    padding-right: 40px;
+}
+.nav2{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    right: 50px;
+    padding: auto;
+}
+.nav2 img{
+    margin-top: 0px;
+}
+a{
+    text-decoration: none;
+    opacity: 0.8;
+    color: white;
+    font-size: 17px;
+    padding-right: 30px;
+}
+.nav2 a{
+    font-size: 20px;
+}
+.nav1 a:hover{
+    opacity: 1;
+    font-size: 18px;
+}
+.nav2 a:hover{
+    opacity: 1;
+    font-size: 23px;
+}
+.nav .nav2 img:hover{
+    height: 50px;
+    width: 50px;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 17px;
+}
+.box{
+    margin-left: 50px;
+    margin-top: 100px;
+    color: white;
+    height: 300px;
+    width: 300px;
+    font-weight: 500;
+}
+.btn{
+    margin-top: 40px;
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    font-weight: 520;
+}
+.b1{
+    background-color: white;
+    color: black;
+}
+.b1:hover{
+    background-color: black;
+    color: white;
+}
+.b2{
+    background-color: rgb(74, 73, 73);
+    color: white;
+}
+.b2:hover{
+    color: white;
+    background-color: rgb(121, 2, 2);
+}
+.main{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+.card{
+    position: relative;
+    height: 200px;
+    width: 320px;
+    padding-right: 10px;
+}
+.card img{
+    opacity: 1;
+    height: 200px;
+    width: 320px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.card img:hover{
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    opacity: 0.4;
+}
+.card img:hover~.show1{
+    opacity: 1;
+}
+.card .show1:hover{
+    opacity: 1;
+}
+.show1{
+    position: absolute;
+    left: 20px;
+    bottom: 80px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-size: 27px;
+    opacity: 0;
+    cursor: pointer;
+}
+.top{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    padding-right: 20px;
+    display: flex;
+}
+.card2{
+    position: relative;
+    margin-right: 20px;
+}
+.card2 img{
+    height: 400px;
+    width: 310px;
+    border-radius: 12px;
+    opacity: 1;
+}
+.card2 img:hover{
+    box-shadow: 2px 2px 5px rgb(255, 0, 0);
+    opacity: 0.4;
+}
+.ts{
+    
+    position: absolute;
+    left: 20px;
+    bottom: 220px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-size: 33px;
+    opacity: 0;
+    cursor: pointer;
+}
+.card2 img:hover~.ts{
+    opacity: 1;
+}
+h2{
+    width: 300px;
+    cursor: pointer;
+}
+h2:hover{
+    font-size: 26px;
+}
